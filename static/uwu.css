@@ -1,0 +1,45 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para el encabezado */
+h3 {
+    margin: 10px 0;
+}
+
+/* Estilos para la tabla de comentarios */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td, th {
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+th {
+    background-color: #465F5A;
+    color: #FFFFFF;
+}
+
+/* Estilos para los enlaces de agregar, editar y borrar */
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+/* Estilos para centrar texto en celdas */
+.center {
+    text-align: center;
+}
